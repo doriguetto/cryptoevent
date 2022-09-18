@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-09-19T07:55:12.526+10:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/cryptoevent/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Thank you"
+        sling:resourceType="cryptoevent/components/page"
+        hideInNav="true"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="cryptoevent/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cryptoevent/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:lastModified="{Date}2022-09-19T07:53:28.109+10:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Thank you"
+                    sling:resourceType="cryptoevent/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="cryptoevent/components/container"
+                    layout="responsiveGrid">
+                    <text
+                        jcr:created="{Date}2022-09-19T07:53:37.997+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-09-19T07:55:12.523+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;p>Your registration was successful, you will receive an email soon from our support team.&lt;/p>&#xd;&#xa;&lt;p>Check out more &lt;a href=&quot;/content/cryptoevent/au/en/events.html&quot; target=&quot;_self&quot;>events&lt;/a>&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                </container>
+            </container>
+        </root>
+        <cq:featuredimage
+            jcr:lastModified="{Date}2022-09-18T20:05:30.152+10:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v3/image"
+            altValueFromDAM="true"/>
+    </jcr:content>
+</jcr:root>

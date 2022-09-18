@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-09-18T21:54:07.581+10:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/cryptoevent/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Green Blockchain Summit II"
+        sling:resourceType="cryptoevent/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="cryptoevent/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cryptoevent/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:lastModified="{Date}2022-09-18T21:53:20.793+10:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Green Blockchain Summit II"
+                    sling:resourceType="cryptoevent/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="cryptoevent/components/container"
+                    layout="responsiveGrid">
+                    <text
+                        jcr:created="{Date}2022-09-18T21:53:28.622+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-09-18T21:53:47.502+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;p>The open forum for a decentralized collective of environmentalists, developers, and entrepreneurs to come together and discuss web3-focused solutions to the planet’s most urgent problems.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <experiencefragment
+                        jcr:created="{Date}2022-09-18T21:53:56.594+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-09-18T21:54:07.577+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/experiencefragment/v2/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/cryptoevent/us/en/site/registration-form/registration-form"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

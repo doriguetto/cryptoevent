@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/cryptoevent" />
+    <filter root="/content/cryptoevent" />
+    <filter root="/content/dam/cryptoevent"/>
+    <filter root="/content/experience-fragments/cryptoevent"/>
+</workspaceFilter>

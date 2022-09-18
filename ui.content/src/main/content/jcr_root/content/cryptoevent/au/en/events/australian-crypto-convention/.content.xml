@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-09-18T21:47:53.483+10:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/cryptoevent/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Australian Crypto Convention"
+        sling:resourceType="cryptoevent/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="cryptoevent/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cryptoevent/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="cryptoevent/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="cryptoevent/components/container"
+                    layout="responsiveGrid">
+                    <text
+                        jcr:created="{Date}2022-09-17T21:22:18.220+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-09-17T21:22:56.303+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="cryptoevent/components/text"
+                        text="&lt;p>Join 5,000+ attendees at Australia’s largest gathering of crypto &amp;amp; blockchain enthusiasts, innovators, technologists, business leaders, influencers, &amp;amp; global leaders.&lt;/p>&#xd;&#xa;&lt;p>The Crypto Convention will take place at the Gold Coast Convention &amp;amp; Exhibition Centre in the centre of Broadbeach, surrounded by nightlife, restaurants and golden beaches. The opening night Red Carpet event is nearby at The Star Gold Coast.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <container
+                        jcr:created="{Date}2022-09-17T21:31:16.982+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-09-18T16:27:19.264+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="cq/experience-fragments/editor/components/experiencefragment"
+                        fragmentPath="/content/experience-fragments/cryptoevent/us/en/site/registration-form/registration-form">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                    </container>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

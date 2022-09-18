@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-09-18T21:51:28.193+10:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/cryptoevent/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="GTC 2022"
+        sling:resourceType="cryptoevent/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="cryptoevent/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cryptoevent/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="cryptoevent/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="cryptoevent/components/container"
+                    layout="responsiveGrid">
+                    <text
+                        jcr:created="{Date}2022-09-18T21:50:04.602+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-09-18T21:51:03.671+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;h2>Explore the latest technologies and business breakthroughs.&lt;/h2>&#xd;&#xa;&lt;p>Learn from experts how AI and the evolution of the 3D Internet are profoundly impacting industries—and society as a whole.&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&lt;b>Join us for the online conference September 19-22, 2022 and be part of what comes next.&amp;nbsp;&amp;nbsp;&lt;/b>&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <experiencefragment
+                        jcr:created="{Date}2022-09-18T21:51:14.182+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-09-18T21:51:28.189+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/experiencefragment/v2/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/cryptoevent/us/en/site/registration-form/registration-form"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
